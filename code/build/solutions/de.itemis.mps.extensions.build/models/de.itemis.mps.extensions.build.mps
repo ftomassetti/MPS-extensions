@@ -5769,6 +5769,11 @@
               <ref role="3bR37D" node="4iIKqJTZ5HO" resolve="de.q60.mps.shadowmodels.transformation" />
             </node>
           </node>
+          <node concept="1SiIV0" id="3zTK92Lpave" role="3bR37C">
+            <node concept="3bR9La" id="3zTK92Lpavf" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1E1JtA" id="4iIKqJTZ5Hm" role="2G$12L">
@@ -6158,6 +6163,11 @@
         <node concept="1E0d5M" id="4iIKqJTZ63v" role="1E1XAP">
           <ref role="1E0d5P" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
         </node>
+        <node concept="1SiIV0" id="3zTK92Lpavg" role="3bR37C">
+          <node concept="3bR9La" id="3zTK92Lpavh" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5I0" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -6359,6 +6369,21 @@
         <node concept="1yeLz9" id="BRK1N8p1rV" role="1TViLv">
           <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.expressions#01" />
           <property role="3LESm3" value="566097a6-68e9-42f5-b4c6-f11ea34090bf" />
+        </node>
+        <node concept="1SiIV0" id="1waFJfehVa7" role="3bR37C">
+          <node concept="3bR9La" id="1waFJfehVa8" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1waFJfehVsA" role="3bR37C">
+          <node concept="3bR9La" id="1waFJfehVsB" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5I0" resolve="de.q60.mps.shadowmodels.repository" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1waFJfejtpY" role="3bR37C">
+          <node concept="3bR9La" id="1waFJfejtpZ" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5HI" resolve="de.q60.mps.shadowmodels.runtimelang" />
+          </node>
         </node>
       </node>
       <node concept="1E1JtD" id="BRK1N8p1ux" role="2G$12L">
@@ -7791,11 +7816,14 @@
         <node concept="398BVA" id="4JmkJs3Gs4y" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="4JmkJs3Gs4C" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="4JmkJs3Gs4H" role="2Ry0An">
-              <property role="2Ry0Am" value="test.de.q60.mps.shadowmodels.examples" />
-              <node concept="2Ry0Ak" id="4JmkJs3Gs4M" role="2Ry0An">
-                <property role="2Ry0Am" value="test.de.q60.mps.shadowmodels.examples.msd" />
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="4wrAhqcwXxO" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="4wrAhqcwXxM" role="2Ry0An">
+                <property role="2Ry0Am" value="test.de.q60.mps.shadowmodels.examples" />
+                <node concept="2Ry0Ak" id="4wrAhqcwXxN" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.q60.mps.shadowmodels.examples.msd" />
+                </node>
               </node>
             </node>
           </node>

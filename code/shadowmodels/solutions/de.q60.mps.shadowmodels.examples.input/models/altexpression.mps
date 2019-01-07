@@ -46,6 +46,10 @@
         <child id="7244744932403797423" name="right" index="3sHXMe" />
       </concept>
       <concept id="7244744932403797606" name="de.q60.mps.shadowmodels.examples.expressions.structure.PlusExpr" flags="ng" index="3sHXX7" />
+      <concept id="7244744932403322722" name="de.q60.mps.shadowmodels.examples.expressions.structure.Enum" flags="ng" index="3sJ9T3">
+        <child id="7244744932403322728" name="literals" index="3sJ9T9" />
+      </concept>
+      <concept id="7244744932403322725" name="de.q60.mps.shadowmodels.examples.expressions.structure.EnumLit" flags="ng" index="3sJ9T4" />
       <concept id="7244744932403249950" name="de.q60.mps.shadowmodels.examples.expressions.structure.ConstantRef" flags="ng" index="3sJS8Z">
         <reference id="7244744932403249951" name="constant" index="3sJS8Y" />
       </concept>
@@ -57,6 +61,18 @@
     </language>
   </registry>
   <node concept="3sDS1J" id="6iawi6SbrdB">
+    <node concept="3sJ9T3" id="uwepCz1Lss" role="3sDS2Z">
+      <property role="TrG5h" value="Color" />
+      <node concept="3sJ9T4" id="uwepCz1Lt0" role="3sJ9T9">
+        <property role="TrG5h" value="red" />
+      </node>
+      <node concept="3sJ9T4" id="uwepCz1Lt2" role="3sJ9T9">
+        <property role="TrG5h" value="greeny" />
+      </node>
+      <node concept="3sJ9T4" id="uwepCz1Lt5" role="3sJ9T9">
+        <property role="TrG5h" value="yellow" />
+      </node>
+    </node>
     <node concept="3sDS1V" id="6iawi6Sdgc0" role="3sDS2Z">
       <property role="TrG5h" value="c" />
       <node concept="3sGD0t" id="6iawi6SelLa" role="3sDS1W">
