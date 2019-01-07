@@ -592,5 +592,18 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="uwepCz3xg7">
+    <property role="3GE5qa" value="enum" />
+    <ref role="1XX52x" to="nup6:uwepCz3xfF" resolve="LitRef" />
+    <node concept="1iCGBv" id="uwepCz3xg9" role="2wV5jI">
+      <ref role="1NtTu8" to="nup6:uwepCz3xfG" resolve="lit" />
+      <node concept="1sVBvm" id="uwepCz3xgb" role="1sWHZn">
+        <node concept="3F0A7n" id="uwepCz3xgl" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

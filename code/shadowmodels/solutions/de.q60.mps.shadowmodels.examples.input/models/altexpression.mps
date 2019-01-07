@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="1ab7bfac-29d6-4772-a483-50110408ac43" name="de.q60.mps.shadowmodels.examples.expressions">
+      <concept id="549502488715072491" name="de.q60.mps.shadowmodels.examples.expressions.structure.LitRef" flags="ng" index="$FyDL">
+        <reference id="549502488715072492" name="lit" index="$FyDQ" />
+      </concept>
       <concept id="2583804470398454605" name="de.q60.mps.shadowmodels.examples.expressions.structure.Function" flags="ng" index="38WgWO">
         <child id="2583804470398454695" name="args" index="38WgZu" />
         <child id="2583804470398454661" name="body" index="38WgZW" />
@@ -118,6 +121,9 @@
         </node>
         <node concept="38XQG0" id="6iawi6Sbre1" role="3sFBEX">
           <ref role="38XQJG" node="6iawi6SbrdY" resolve="a" />
+        </node>
+        <node concept="$FyDL" id="uwepCz3Qva" role="3sFBEX">
+          <ref role="$FyDQ" node="uwepCz1Lt0" resolve="red" />
         </node>
         <node concept="3sJS8Z" id="6iawi6SdxXg" role="3sFBEX">
           <ref role="3sJS8Y" node="6iawi6Sdgc0" resolve="c" />

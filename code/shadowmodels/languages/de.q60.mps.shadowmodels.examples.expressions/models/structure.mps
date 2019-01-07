@@ -372,5 +372,18 @@
       <ref role="PrY4T" node="6iawi6Sbg5f" resolve="IDeclaration" />
     </node>
   </node>
+  <node concept="1TIwiD" id="uwepCz3xfF">
+    <property role="EcuMT" value="549502488715072491" />
+    <property role="3GE5qa" value="enum" />
+    <property role="TrG5h" value="LitRef" />
+    <ref role="1TJDcQ" node="2frx7BFaCHD" resolve="Expr" />
+    <node concept="1TJgyj" id="uwepCz3xfG" role="1TKVEi">
+      <property role="IQ2ns" value="549502488715072492" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="lit" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6iawi6SdxX_" resolve="EnumLit" />
+    </node>
+  </node>
 </model>
 
