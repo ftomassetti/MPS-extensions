@@ -56,6 +56,7 @@
     </language>
     <language id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation">
       <concept id="7335687028107245072" name="de.q60.mps.shadowmodels.transformation.structure.TransformationOutput" flags="ng" index="026TG">
+        <property id="5973274251289388783" name="multiple" index="3OWzeB" />
         <child id="7335687028107245075" name="output" index="026TJ" />
       </concept>
       <concept id="7335687028107243116" name="de.q60.mps.shadowmodels.transformation.structure.NodeBuilder" flags="ng" index="027og">
@@ -619,11 +620,19 @@
                   <ref role="3TtcxE" to="nup6:6iawi6Sbg6u" resolve="declarations" />
                 </node>
               </node>
-              <node concept="214gnc" id="3AhHUC_d3y7" role="2PWHRo">
-                <ref role="1YEVMl" node="6iawi6Sbtju" resolve="execute" />
-                <node concept="1Ixn1J" id="3AhHUC_d3AB" role="214sll">
+              <node concept="2PWHRv" id="5b_lky_OAj$" role="2PWHRo">
+                <node concept="214gnc" id="5b_lky_OALB" role="2PWHRo">
+                  <ref role="1YEVMl" node="6iawi6Sbtju" resolve="execute" />
+                  <node concept="1PxgMI" id="5b_lky_PLnP" role="214sll">
+                    <node concept="chp4Y" id="5b_lky_PLCt" role="3oSUPX">
+                      <ref role="cht4Q" to="nup6:6iawi6Sbg5f" resolve="IDeclaration" />
+                    </node>
+                    <node concept="214o7A" id="5b_lky_OJy1" role="1m5AlR" />
+                  </node>
+                </node>
+                <node concept="1Ixn1J" id="5b_lky_OK6I" role="2PWHRq">
                   <ref role="1YLLVi" node="6iawi6SgtKf" resolve="processDecl" />
-                  <node concept="214o7A" id="3AhHUC_d3HE" role="1Ixn1I" />
+                  <node concept="214o7A" id="5b_lky_OK6J" role="1Ixn1I" />
                 </node>
               </node>
             </node>
@@ -641,6 +650,7 @@
         </node>
       </node>
       <node concept="026TG" id="6iawi6SgtKi" role="026TK">
+        <property role="3OWzeB" value="true" />
         <node concept="027og" id="6iawi6SgvmQ" role="026TJ">
           <ref role="02LMe" to="nup6:6iawi6Sbg5f" resolve="IDeclaration" />
         </node>
