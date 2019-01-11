@@ -6390,6 +6390,11 @@
               <ref role="3bR37D" node="4iIKqJTZ5Hs" resolve="de.q60.mps.polymorphicfunctions" />
             </node>
           </node>
+          <node concept="1SiIV0" id="4j3DGEkEn0J" role="3bR37C">
+            <node concept="3bR9La" id="4j3DGEkEn0K" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="4iIKqJTZ63r" role="3bR37C">
           <node concept="3bR9La" id="4iIKqJTZ63s" role="1SiIV1">
@@ -6407,6 +6412,11 @@
         <node concept="1SiIV0" id="3zTK92Lpavg" role="3bR37C">
           <node concept="3bR9La" id="3zTK92Lpavh" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4j3DGEkEmHW" role="3bR37C">
+          <node concept="3bR9La" id="4j3DGEkEmHX" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
           </node>
         </node>
       </node>
