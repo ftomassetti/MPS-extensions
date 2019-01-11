@@ -307,6 +307,11 @@
     <node concept="PrWs8" id="1cIlazwM5X4" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyi" id="5b_lkyA5QrJ" role="1TKVEl">
+      <property role="IQ2nx" value="5973274251289388783" />
+      <property role="TrG5h" value="multiple" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6ndA7L_LCjO">
     <property role="EcuMT" value="7335687028107281652" />
@@ -623,7 +628,7 @@
   </node>
   <node concept="1TIwiD" id="2ePp5XuNSQz">
     <property role="EcuMT" value="2573073122887437731" />
-    <property role="3GE5qa" value="macros" />
+    <property role="3GE5qa" value="macros.copy" />
     <property role="TrG5h" value="CopyMacro" />
     <property role="34LRSv" value="copy" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -634,15 +639,15 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="PrWs8" id="2ePp5XuNSQ$" role="PzmwI">
-      <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
-    </node>
     <node concept="1TJgyj" id="4wrAhqcD1bD" role="1TKVEi">
       <property role="IQ2ns" value="5195914917229892329" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="handlers" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="4wrAhqcD12O" resolve="ICopyHandler" />
+    </node>
+    <node concept="PrWs8" id="2ePp5XuNSQ$" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
     </node>
   </node>
   <node concept="PlHQZ" id="6QszampN4lI">
@@ -703,7 +708,9 @@
     <node concept="PrWs8" id="2UwmfNv7kRg" role="PzmwI">
       <ref role="PrY4T" node="6QszampN4lI" resolve="INodeBuilderContext" />
     </node>
-    <node concept="asaX9" id="5o5qH$CT60b" role="lGtFl" />
+    <node concept="asaX9" id="5o5qH$CT60b" role="lGtFl">
+      <property role="YLQ7P" value="Use CopyMacro" />
+    </node>
   </node>
   <node concept="1TIwiD" id="TB2rf$dAhL">
     <property role="EcuMT" value="1037808907364754545" />
@@ -1069,19 +1076,10 @@
     <property role="34LRSv" value="repository" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
-  <node concept="1TIwiD" id="4wrAhqcD12T">
-    <property role="EcuMT" value="5195914917229891769" />
+  <node concept="PlHQZ" id="4wrAhqcD12O">
+    <property role="EcuMT" value="5195914917229891764" />
     <property role="3GE5qa" value="macros.copy" />
-    <property role="TrG5h" value="CopyHandler_Reference_target" />
-    <property role="34LRSv" value="target" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-  </node>
-  <node concept="1TIwiD" id="4wrAhqcJkoE">
-    <property role="EcuMT" value="5195914917231543850" />
-    <property role="3GE5qa" value="macros.copy" />
-    <property role="TrG5h" value="CopyHandler_Property_role" />
-    <property role="34LRSv" value="role" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <property role="TrG5h" value="ICopyHandler" />
   </node>
   <node concept="1TIwiD" id="4wrAhqcD12P">
     <property role="EcuMT" value="5195914917229891765" />
@@ -1106,15 +1104,54 @@
       <ref role="PrY4T" node="4wrAhqcD12O" resolve="ICopyHandler" />
     </node>
   </node>
-  <node concept="PlHQZ" id="4wrAhqcD12O">
-    <property role="EcuMT" value="5195914917229891764" />
+  <node concept="1TIwiD" id="4wrAhqcD12T">
+    <property role="EcuMT" value="5195914917229891769" />
     <property role="3GE5qa" value="macros.copy" />
-    <property role="TrG5h" value="ICopyHandler" />
+    <property role="TrG5h" value="CopyHandler_Reference_target" />
+    <property role="34LRSv" value="target" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="4wrAhqcFqIk">
     <property role="EcuMT" value="5195914917230521236" />
     <property role="3GE5qa" value="macros.copy" />
     <property role="TrG5h" value="CopyHandler_Reference_link" />
+    <property role="34LRSv" value="role" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="4wrAhqcH2n8">
+    <property role="EcuMT" value="5195914917230945736" />
+    <property role="3GE5qa" value="macros.copy" />
+    <property role="TrG5h" value="CopyHandler_Child" />
+    <property role="34LRSv" value="child" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4wrAhqcH2nc" role="1TKVEi">
+      <property role="IQ2ns" value="5195914917230945740" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="condition" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="4wrAhqcH2nf" role="1TKVEi">
+      <property role="IQ2ns" value="5195914917230945743" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="replacement" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6ndA7L_LuUC" resolve="INodeSpec" />
+    </node>
+    <node concept="PrWs8" id="4wrAhqcH2n9" role="PzmwI">
+      <ref role="PrY4T" node="4wrAhqcD12O" resolve="ICopyHandler" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4wrAhqcHBVB">
+    <property role="EcuMT" value="5195914917231099623" />
+    <property role="3GE5qa" value="macros.copy" />
+    <property role="TrG5h" value="CopyHandler_Child_child" />
+    <property role="34LRSv" value="child" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="4wrAhqcHCXg">
+    <property role="EcuMT" value="5195914917231103824" />
+    <property role="3GE5qa" value="macros.copy" />
+    <property role="TrG5h" value="CopyHandler_Child_link" />
     <property role="34LRSv" value="role" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
@@ -1141,11 +1178,11 @@
       <ref role="PrY4T" node="4wrAhqcD12O" resolve="ICopyHandler" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4wrAhqcHBVB">
-    <property role="EcuMT" value="5195914917231099623" />
+  <node concept="1TIwiD" id="4wrAhqcJkoE">
+    <property role="EcuMT" value="5195914917231543850" />
     <property role="3GE5qa" value="macros.copy" />
-    <property role="TrG5h" value="CopyHandler_Child_child" />
-    <property role="34LRSv" value="child" />
+    <property role="TrG5h" value="CopyHandler_Property_role" />
+    <property role="34LRSv" value="role" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="4wrAhqcJl_G">
@@ -1154,36 +1191,6 @@
     <property role="TrG5h" value="CopyHandler_Property_value" />
     <property role="34LRSv" value="value" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-  </node>
-  <node concept="1TIwiD" id="4wrAhqcHCXg">
-    <property role="EcuMT" value="5195914917231103824" />
-    <property role="3GE5qa" value="macros.copy" />
-    <property role="TrG5h" value="CopyHandler_Child_link" />
-    <property role="34LRSv" value="role" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-  </node>
-  <node concept="1TIwiD" id="4wrAhqcH2n8">
-    <property role="EcuMT" value="5195914917230945736" />
-    <property role="3GE5qa" value="macros.copy" />
-    <property role="TrG5h" value="CopyHandler_Child" />
-    <property role="34LRSv" value="child" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4wrAhqcH2nc" role="1TKVEi">
-      <property role="IQ2ns" value="5195914917230945740" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="condition" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="4wrAhqcH2nf" role="1TKVEi">
-      <property role="IQ2ns" value="5195914917230945743" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="replacement" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ndA7L_LuUC" resolve="INodeSpec" />
-    </node>
-    <node concept="PrWs8" id="4wrAhqcH2n9" role="PzmwI">
-      <ref role="PrY4T" node="4wrAhqcD12O" resolve="ICopyHandler" />
-    </node>
   </node>
 </model>
 
